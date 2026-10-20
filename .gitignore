@@ -1,2 +1,23 @@
-client_secret*.json
+# Local configuration and credentials
+env.yaml
+.env
+.env.*
+!env.example.yaml
+credentials.json
 gmail_credentials.json
+client_secret*.json
+*token*.json
+*secret*.json
+
+# Backups, exports, and local outputs
+*.backup
+*.backup-*
+main.py.before-*
+main.py.failed-*
+*.log
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
